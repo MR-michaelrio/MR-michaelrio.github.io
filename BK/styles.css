@@ -205,6 +205,13 @@ nav{
         position: relative;
         height: 385px;
     }
+    .tulisan1{
+        position: absolute;
+        top:170px;
+        padding:60px 0px 0px 51px;
+        color:#fff;
+        max-width: 900px;
+    }    
     .foto-tulisan1{
         font-size: 60px;
     }
