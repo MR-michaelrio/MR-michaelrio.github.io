@@ -69,7 +69,7 @@ nav{
 
 .tulisan1{
     position: absolute;
-    top:120px;
+    top:170px;
     padding:60px 0px 0px 51px;
     color:#fff;
     max-width: 900px;
@@ -139,15 +139,14 @@ nav{
     position: relative;
     display: block;
     width: 363px;
-    height: 363px;  
-    background-color: green; 
+    height: 363px;   
 }
 .artikel-isi2{
     position: absolute;
     display: block;
     width: 343px;
     height: 134px;  
-    background-color: brown; 
+    background-color: #d04109; 
     padding: 10px 10px;
     text-align: justify;
 }
@@ -177,6 +176,7 @@ nav{
 .footer-akhir{
     background-color: #b93002;
     font-size: 18px;
+    padding: 3px 0px 3px 0px;
 }
 
 @media (min-width:672px) and (max-width:1050px){
@@ -232,16 +232,14 @@ nav{
         position: relative;
         display: block;
         width: 263px;
-        height: 246px;  
-        background-color: green; 
+        height: 246px;   
     }
     .artikel-isi2{
         position: absolute;
         display: block;
-        width: 263px;
-        height: 154px;  
-        background-color: brown; 
-        padding:0px 0px;
+        width: 253px;
+        height: 144px;  
+        padding:5px 5px;
     }
     .table-sosmed{
         display: inline-block;
@@ -263,14 +261,12 @@ nav{
         display: block;
         width: 363px;
         height: 363px;  
-        background-color: green; 
     }
     .artikel-isi2{
         position: absolute;
         display: block;
         width: 353px;
         height: 125px;  
-        background-color: brown; 
         padding:5px 5px;
     }
     
@@ -309,6 +305,7 @@ nav{
     }
     .foto-tulisan2{
         font-size: 10px;
+        
     }
     .button{
         background-color:#b93002;
@@ -398,14 +395,12 @@ nav{
         display: block;
         width: 263px;
         height: 263px;  
-        background-color: green; 
     }
     .artikel-isi2{
         position: absolute;
         display: block;
         width: 253px;
         height: 137px;  
-        background-color: brown; 
         padding:5px 5px;
     } 
     .logo-sosmed{
@@ -438,14 +433,12 @@ nav{
         display: block;
         width: 263px;
         height: 263px;  
-        background-color: green; 
     }
     .artikel-isi2{
         position: absolute;
         display: block;
         width: 253px;
         height: 137px;  
-        background-color: brown; 
         padding:5px 5px;
     } 
     .logo-sosmed{
@@ -494,14 +487,12 @@ nav{
         display: block;
         width: 263px;
         height: 263px;  
-        background-color: green; 
     }
     .artikel-isi2{
         position: absolute;
         display: block;
         width: 253px;
         height: 137px;  
-        background-color: brown; 
         padding:5px 5px;
     } 
     .footer-judul{
