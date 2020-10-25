@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BK</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+
+    </style>
+    </head>
+    <body>
+        <nav>
+            <div class="navnama" id=navnama>
+                <b>BIMBINGAN KONSELING <p>SEKOLAH CINTA KASIH TZU CHI</p></b>
+            </div>
+            <div class="menu-mobile">
+                <a href="#" onclick="showMenu()"><i class="fa fa-bars" style="font-size:30px"></i></a>
+            </div>
+            <div  class="navbutton" id="navbutton">
+                <button class='button button2' id="btn1">DAFTAR</button>
+                <button class='button button1' id="btn2">MASUK</button>
+            </div>     
+        </nav>
+        
+        <!--gambar-->
+        <div class="image" id="image"></div>
+        <div class="tulisan1" id="tulisan1">
+            <b>
+                <div class="foto-tulisan1">KONSULTASI<br>SEKARANG<br></div>
+                <div class="foto-tulisan2">JANGAN PENDAM PERASAANMU SENDIRI</div>
+                <div class=""><button class='btn button3'>DAFTAR SEKARANG</button></div>
+            </b> 
+        </div>
+        <div class="bar">
+           <div class="bardalam">V</div> 
+        </div>
+
+        <!--artikel-->
+        <Center>
+        <div class="artikel">
+            <div class="artikel-judul">ARTIKEL TERBARU</div>
+            <div class="artikel-isi">
+                <div class="artikel-isi1"></div>
+                <div class="artikel-isi2">
+                    <h3 style="margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat.
+                </div>
+            </div>
+            <div class="artikel-isi">
+                <div class="artikel-isi1"></div>
+                <div class="artikel-isi2">
+                    <h3 style="margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat.
+                </div>
+            </div>
+            <div class="artikel-isi">
+                <div class="artikel-isi1"></div>
+                <div class="artikel-isi2">
+                    <h3 style="margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat.
+                </div>
+            </div>
+        </div>
+    </Center>
+        <!--footer-->
+        <CENTER>
+            <footer class="footer">
+                <div class="footer-judul">KONTAK KAMI</div>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Instagram.png" class="logo-sosmed"></td>
+                        <td>@cintakasihtzuchi</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Twitter.png"  class="logo-sosmed"></td>
+                        <td>@SCKTZUCHI</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Facebook.png"  class="logo-sosmed"></td>
+                        <td>CINTA KASIH TZU CHI</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Youtube.png"  class="logo-sosmed"></td>
+                        <td>CINTA KASIH TZU CHI</td>
+                    </tr>
+                </table>
+                <div class="footer-akhir">
+                    <i>&copy; copyright SMK Cinta Kasih Tzu Chi - All rights reserved. </i>
+                </div>
+            </footer>
+        </CENTER>
+
+
+    </body>
+</html>
+
+<script>
+    function showMenu(){
+        var navbutton = document.getElementById('navbutton');
+        var image = document.getElementById('image');
+        var tulisan1 = document.getElementById('tulisan1');
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+
+        if(navbutton.style.display === "block"){
+            navbutton.style.display = "none";
+            image.style.marginTop = "0px";
+            tulisan1.style.marginTop = "0px";   
+        }else{
+            navbutton.style.display = "block";
+            btn1.style.zIndex = "3";
+            btn2.style.zIndex = "4";
+            btn1.style.background = "#d04109";
+            btn2.style.background = "#d04109";
+            btn1.style.color = "white";
+            btn2.style.color = "white";
+            btn1.style.border = "0px";
+            btn2.style.border = "0px";
+            image.style.marginTop = "80px";
+            tulisan1.style.marginTop = "80px";
+        }
+    }
+</script>
