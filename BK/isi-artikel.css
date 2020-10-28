@@ -91,7 +91,7 @@ nav{
 }
 .artikel-isi{
     margin: 0px 51.2px 0px 51.2px;
-    text-align: justify;
+    
 }
 .judul{
     color: black;
@@ -99,9 +99,9 @@ nav{
     font-weight: 800;
 }
 .isi{
+    text-align: justify;
     color: black;
     font-size: 26px;
-    font-style: justify;
     font-weight: 500;
 }
 .see-more{
