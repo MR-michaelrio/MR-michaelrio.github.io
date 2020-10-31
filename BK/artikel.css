@@ -1,0 +1,494 @@
+*, body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    float: right;
+}
+
+/*navbar*/
+nav{
+    background-color: #d04109;
+    height:118px;
+    padding: 0px 51.2px 0px 51.2px;
+    position: relative;
+}
+
+.navnama{
+    font-size: 2em;
+    display: inline-block;
+    padding: 25px 0 0 0;
+}
+.navbutton{
+    display: inline-block;
+    float: right;
+    padding: 28px 0 0 0;
+}
+.button1{
+    position: relative;
+    background-color:#d04109;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #fff;
+}
+.button2{
+    position: relative;
+    background-color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    color:#d04109;
+    border: 3px solid #fff;
+}
+
+/*body*/
+.menu-mobile{
+    position: relative;
+    display: none;
+    float: right;
+}
+.tulisan1{
+    position: absolute;
+    top:230px;
+    padding:60px 0px 0px 51px;
+    color:#fff;
+    max-width: 900px;
+}
+.foto-tulisan1{
+    font-size: 98px;
+}
+.foto-tulisan2{
+    font-size: 40px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+}
+.button3{
+    float: left;
+    position: relative;
+    background-color:#d04109;
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+    border: 3px solid #d04109;
+}
+.artikel-judul{
+    color:#d04109;
+    font-weight: 750;
+    font-size: 48px;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+.artikel-isi{
+    position: relative;
+    display: inline-block;
+    width: 363px;
+    height: 517px;
+    border: 1px solid black;    
+    margin: 0px 56px 25px 56px;
+}
+.artikel-isi1{
+    position: relative;
+    display: block;
+    width: 363px;
+    height: 363px;   
+}
+.artikel-isi2{
+    position: absolute;
+    display: block;
+    width: 343px;
+    height: 134px;  
+    background-color: #d04109; 
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.footer{
+    width: 100%;
+    height: 127px;
+    background-color: #d04109;
+}
+.footer-judul{
+    text-align: center;
+    font-weight: 750;
+    font-size: 48px;
+    padding: 10px 0px 10px 0px;
+}
+
+.table-sosmed{
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+}
+
+.logo-sosmed{
+    width: 35px; 
+    height: 35px; 
+    border-radius: 300px;
+}
+.footer-akhir{
+    background-color: #b93002;
+    font-size: 18px;
+    padding: 3px 0px 3px 0px;
+}
+
+.buttons{
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    font-weight:700;
+    position: relative;
+}
+.btn-next{
+    background-color: #d04109;
+    color: white;
+    border: 3px solid #d04109;
+    float: right;
+}
+.btn-pre{
+    background-color: white;
+    color: #d04109;
+    border: 3px solid #d04109;
+    float: left;
+}
+.btnpag{
+    background-color: none;
+    padding: 0px 95px 70px 95px;
+}
+@media (min-width:1050px) and (max-width:1440px){
+    .btnpag{
+        background-color: none;
+        padding: 0px 55px 70px 55px;
+    } 
+}
+@media (min-width:672px) and (max-width:1050px){
+nav{
+    padding: 0px 51.2px 0px 51.2px;
+    position: relative;
+}
+.navnama{
+    font-size: 20px;
+    display: inline-block;
+    padding: 35px 0 0 0;
+}
+button{
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    float: right;
+}
+.btnpag{
+    padding: 25px 70px 70px 70px;
+}
+.tulisan1{
+    position: absolute;
+    top:170px;
+    padding:60px 0px 0px 51px;
+    color:#fff;
+    max-width: 900px;
+}    
+.foto-tulisan1{
+    font-size: 60px;
+}
+.foto-tulisan2{
+    font-size: 20px;
+}
+
+.button3{
+    float: left;
+    position: relative;
+    background-color:#d04109;
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+    border: 3px solid #d04109;
+}
+.artikel-isi{
+    position: relative;
+    display: inline-block;
+    width: 263px;
+    height: 400px;
+    margin: 0px 20px 0px 20px;
+}  
+.artikel-isi1{
+    position: relative;
+    display: block;
+    width: 263px;
+    height: 246px;   
+}
+.artikel-isi2{
+    position: absolute;
+    display: block;
+    width: 253px;
+    height: 144px;  
+    padding:5px 5px;
+}
+.table-sosmed{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    font-size: 13px;
+}
+}
+@media (min-width: 672px) and (max-width: 769px){
+    .artikel-isi{
+        position: relative;
+        display: inline-block;
+        width: 363px;
+        height: 497px;
+        margin: 0px 10px 0px 10px;
+    }  
+    .btnpag{
+        padding: 25px 100px 70px 100px;
+    }
+    .artikel-isi1{
+        position: relative;
+        display: block;
+        width: 363px;
+        height: 363px;  
+    }
+    .artikel-isi2{
+        position: absolute;
+        display: block;
+        width: 353px;
+        height: 125px;  
+        padding:5px 5px;
+    }
+    
+}
+@media screen and (max-width:672px){
+    nav{
+        padding: 0px 20px 0px 20px;
+        position: relative;
+    }
+    .navnama{
+        font-size: 15px;
+        display: inline-block;
+        padding: 40px 0 0 0;
+    }
+    .menu-mobile{
+        display: inline-block;
+        padding: 40px 0 0 0;
+        font-size: 15px;
+    }
+    .navbutton{
+        display: none;
+        float: right;
+        padding: 28px 0 0 0;
+        background-color: none;
+    }
+    .tulisan1{
+        position: absolute;
+        top:100px;
+        padding:60px 0px 0px 20px;
+        color:#fff;
+        max-width: 900px;
+    }
+    .foto-tulisan1{
+        font-size: 24px;
+    }
+    .foto-tulisan2{
+        font-size: 10px;
+        
+    }
+    .button{
+        background-color:#b93002;
+        border: 0px;
+        color: white;
+        top:105px;
+        right:100px;
+    }
+    .buttons{
+        padding: 10px 28px;
+        display: inline-block;
+        font-size: 13px;
+        margin: 0px 0px 0px 0px;
+        font-weight:700;
+    }
+    .btnpag{
+        padding: 20px 10px 60px 10px;
+    }
+    .btn{
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        float: right;
+    }
+    .button3{
+        float: left;
+        position: relative;
+        background-color:#d04109;
+        font-size: 10px;
+        font-weight: bold;
+        color:#fff;
+        border: 3px solid #d04109;
+    }
+    .table-sosmed{
+        display: inline-block;
+        margin: 0px 0px 0px 0px;
+        font-size: 10px;
+    }
+    .logo-sosmed{
+        width: 35px; 
+        height: 35px; 
+        border-radius: 300px;
+    }
+}
+@media screen and (max-width:596px){
+    .artikel-judul{
+        font-size: 30px;
+    }
+    .footer-akhir{
+        font-size: 15px;
+    }
+    .button{
+        background-color:#b93002;
+        border: 0px;
+        color: white;
+        font-size: medium;
+        top:35px;
+        right:50px;
+    }
+}
+@media screen and (max-width:506px){
+    .artikel-isi{
+        position: relative;
+        display: inline-block;
+        width: 263px;
+        height: 410px;
+        margin: 0px 0px 0px 0px;
+    }
+    .artikel-isi1{
+        position: relative;
+        display: block;
+        width: 263px;
+        height: 263px;  
+    }
+    .artikel-isi2{
+        position: absolute;
+        display: block;
+        width: 253px;
+        height: 137px;  
+        padding:5px 5px;
+    } 
+    .logo-sosmed{
+        width: 25px; 
+        height: 25px; 
+        border-radius: 300px;
+    }
+    .table-sosmed{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:396px){
+    .artikel-isi{
+        position: relative;
+        display: inline-block;
+        width: 263px;
+        height: 410px;
+        margin: 0px 0px 0px 0px;
+    }  
+    .artikel-isi1{
+        position: relative;
+        display: block;
+        width: 263px;
+        height: 263px;  
+    }
+    .artikel-isi2{
+        position: absolute;
+        display: block;
+        width: 253px;
+        height: 137px;  
+        padding:5px 5px;
+    } 
+    .logo-sosmed{
+        width: 25px; 
+        height: 25px; 
+        border-radius: 300px;
+    }
+    .table-sosmed{
+        font-size: 6px;
+    }
+    .button{
+        background-color:#b93002;
+        border: 0px;
+        color: white;
+        font-size: medium;
+        top:35px;
+        right:30px;
+    }
+}
+@media screen and (max-width:321px){
+    .button{
+        background-color:#b93002;
+        border: 0px;
+        color: white;
+        font-size: medium;
+        top:35px;
+        right:0px;
+    }
+    .artikel-isi{
+        position: relative;
+        display: inline-block;
+        width: 263px;
+        height: 410px;
+        margin: 0px 0px 0px 0px;
+    }  
+    .artikel-isi1{
+        position: relative;
+        display: block;
+        width: 263px;
+        height: 263px;  
+    }
+    .artikel-isi2{
+        position: absolute;
+        display: block;
+        width: 253px;
+        height: 137px;  
+        padding:5px 5px;
+    } 
+    .footer-judul{
+        font-size: 30px;
+    }
+    .logo-sosmed{
+        width: 25px; 
+        height: 25px; 
+        border-radius: 300px;
+    }
+    .table-sosmed{
+        font-size: 6px;
+    }
+    .footer-akhir{
+        font-size: 10px;
+    }
+}
