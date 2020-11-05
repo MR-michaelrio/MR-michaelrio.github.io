@@ -1,64 +1,117 @@
-<style>
-* {margin:0; padding:0}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BK</title>
+        <link rel="stylesheet" href="stylesss.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="navnama" id=navnama>
+                <b>BIMBINGAN KONSELING <p>SEKOLAH CINTA KASIH TZU CHI</p></b>
+            </div>
+            <div class="menu-mobile">
+                <a href="#" onclick="showMenu()"><i class="fa fa-bars" style="font-size:30px"></i></a>
+            </div>
+            <div  class="navbutton" id="navbutton">
+                <a href="daftar.html" class='button button2' id="btn1">DAFTAR</a>
+                <a href="login.html" class='button button1' id="btn2">MASUK</a>
+            </div>     
+        </nav>
+        
+        <!--gambar-->
+        <center>
+        <div class="login" id="form">
+            <div class="image"></div>
+            <form>
+                <div class="form">
+                    <div class="form-top">
+                        MASUK
+                    </div>
+                    <div class=form-isi>
+                        <div class="email">
+                            <h5>Email</h5>
+                            <input type=email name=email class="f1">
+                        </div>
+                        <div class="password">
+                            <h5>Password</h5>
+                            <input type=password name=email class="f1">
+                        </div>
+                        <div class="remember">
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" class="f2"></td>
+                                    <td><h4>Remember Me!</h4></td>
+                                </tr>
+                            </table>
+                            <button type="submit" class="btn-msk">MASUK</button>
+                        </div>
+                    </div> 
+                </div>
+            </form>
+        </div>
+        </center>
 
-body {     
-    background-color:#2c3e50;
-    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:#fff;
-}
+        <!--footer-->
+        <CENTER>
+            <footer class="footer">
+                <div class="footer-judul">KONTAK KAMI</div>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Instagram.png" class="logo-sosmed"></td>
+                        <td>@cintakasihtzuchi</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Twitter.png"  class="logo-sosmed"></td>
+                        <td>@SCKTZUCHI</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Facebook.png"  class="logo-sosmed"></td>
+                        <td>CINTA KASIH TZU CHI</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Youtube.png"  class="logo-sosmed"></td>
+                        <td>CINTA KASIH TZU CHI</td>
+                    </tr>
+                </table>
+                <div class="footer-akhir">
+                    <i>&copy; copyright SMK Cinta Kasih Tzu Chi - All rights reserved. </i>
+                </div>
+            </footer>
+        </CENTER>
 
-nav {
-    height:50px;
-    background-color:#d35400;
-    line-height:50px;
-    position:relative;
-    top:80px;
-    width:750px;
-    margin:auto;
-}
 
-nav ul {
-    list-style:none;
-}
-nav ul li a {
-    float:left;
-    width:150px;
-    color:#fff;
-    text-decoration:none;
-    display:block;
-    text-align:center;
-}
-nav ul li a:hover {
-    background-color:#e67e22;
-    display:block;
-}
-/*css untuk menu hover dropdown*/
-nav ul li:hover .sub1 {display:block}
-nav ul .sub1 {
-    display:none;
-    position:absolute;
-    left:150px;
-    top:50px;
-    background-color:#d35400;
-}
-.sub1 a:hover { color:#fff }
-</style>
+    </body>
+</html>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Category</a>
-                <ul class="sub1">
-                    <li><a href="">Category 1</a></li>
-                    <li><a href="">Category 2</a></li>
-                    <li><a href="">Category 3</a></li>
-                    <li><a href="">Category 4</a></li>
-                </ul>
-            </li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul>
-    </nav>
-</body>
+<script>
+    function showMenu(){
+        var navbutton = document.getElementById('navbutton');
+        var form = document.getElementById('form');
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+
+        if(navbutton.style.display === "block"){
+            navbutton.style.display = "none";
+            form.style.marginTop = "40px";
+        }else{
+            navbutton.style.display = "block";
+            btn1.style.zIndex = "3";
+            btn2.style.zIndex = "4";
+            btn1.style.background = "#d04109";
+            btn2.style.background = "#d04109";
+            btn1.style.color = "white";
+            btn2.style.color = "white";
+            btn1.style.border = "0px";
+            btn2.style.border = "0px";
+            form.style.marginTop = "80px";
+        }
+    }
+</script>

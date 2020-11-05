@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BK</title>
+        <link rel="stylesheet" href="style-daftar.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="navnama" id=navnama>
+                <b>BIMBINGAN KONSELING <p>SEKOLAH CINTA KASIH TZU CHI</p></b>
+            </div>
+            <div class="menu-mobile">
+                <a href="#" onclick="showMenu()"><i class="fa fa-bars" style="font-size:30px"></i></a>
+            </div>
+            <div  class="navbutton" id="navbutton">
+                <a href="daftar.html" class='button button2' id="btn1">DAFTAR</a>
+                <a href="login.html" class='button button1' id="btn2">MASUK</a>
+            </div>     
+        </nav>
+        
+        <!--gambar-->
+        <center>
+        <div class=container id="form">
+            <div class="container-top">
+                <form>
+                    <div class="form">
+                        <div class="form-top">
+                            DAFTAR
+                        </div>
+                        <div class=form-isi>
+                            <div class="email">
+                                <h5>Username</h5>
+                                <input type=text name=username class="f1" placeholder="Masukkan Username...">
+                            </div>
+                            <div class="email">
+                                <h5>Email</h5>
+                                <input type=email name=email class="f1" placeholder="Masukkan Email...">
+                            </div>
+                            <div class="password">
+                                <h5>Password</h5>
+                                <input type=password name=email class="f1" placeholder="Masukkan Password...">
+                            </div>
+                        </div> 
+                    </div>
+                
+                <div class="image"></div>
+            </div>
+            <div class="container-bottom">
+                <div class="bar1"><h1>INFORMASI PRIBADI</h1><span>*data tidak akan disebarkan kepada siapapun!</span></div>
+                <div class=form-isi2>
+                    <div class="kotak2">
+                        <div class=isi2>
+                            <div class="email">
+                                <h3>Nama Lengkap</h3>
+                                <input type=text name=nama class="f2" placeholder="Masukkan Nama Lengkap...">
+                            </div>
+                            <div class="email">
+                                <h3>Tanggal Lahir</h3>
+                                <input type=date name=tgl class="f2" placeholder="Masukkan Tanggal Lahir...">
+                            </div>
+                            <div class="email">
+                                <h3>Status</h3>
+                                <select name="status" id="status" class="f2" onchange="myFunction()">
+                                    <option value="pelajar">Pelajar</option>
+                                    <option value="guru" selected>Guru</option>
+                                    <option value="bk">BK</option>
+                                </select>                              
+                            </div>
+                            <div class="password" id=password style="display: none;">
+                                <h3>Kelas&nbsp;</h3>
+                                <input type=text name=kelas class="f2" placeholder="Masukkan Kelas...">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class=isi3>
+                        <div class="email">
+                            <h3>Alamat</h3><br>
+                            <textarea name="alamat" class="alamat">
+
+                            </textarea>
+                        </div>
+                    </div>
+                    <button class="button3" type="submit">DAFTAR</button>
+                </div>
+            </div>
+            </form>
+        </div>
+        </center>
+
+        <!--footer-->
+        <CENTER>
+            <footer class="footer">
+                <div class="footer-judul">KONTAK KAMI</div>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Instagram.png" class="logo-sosmed"></td>
+                        <td>@cintakasihtzuchi</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Twitter.png"  class="logo-sosmed"></td>
+                        <td>@SCKTZUCHI</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Facebook.png"  class="logo-sosmed"></td>
+                        <td>CINTA KASIH TZU CHI</td>
+                    </tr>
+                </table>
+                <table border="0" class="table-sosmed">
+                    <tr>
+                        <td><img src="Images/Youtube.png"  class="logo-sosmed"></td>
+                        <td>CINTA KASIH TZU CHI</td>
+                    </tr>
+                </table>
+                <div class="footer-akhir">
+                    <i>&copy; copyright SMK Cinta Kasih Tzu Chi - All rights reserved. </i>
+                </div>
+            </footer>
+        </CENTER>
+
+
+    </body>
+</html>
+
+<script>
+function sts(){
+    
+
+    pass.style.display = "block";
+}
+
+function myFunction() {
+  var status = document.getElementById("status").value;
+
+  var pass = document.getElementById("password");
+  if(status === "pelajar"){
+      pass.style.display = "block";
+  }
+  else if(status === "guru"){
+      pass.style.display = "none";
+  }
+  else if(status === "bk"){
+      pass.style.display = "none";
+  }
+}
+    function showMenu(){
+        var navbutton = document.getElementById('navbutton');
+        var form = document.getElementById('form');
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+
+        if(navbutton.style.display === "block"){
+            navbutton.style.display = "none";
+            form.style.marginTop = "40px";
+        }else{
+            navbutton.style.display = "block";
+            btn1.style.zIndex = "3";
+            btn2.style.zIndex = "4";
+            btn1.style.background = "#d04109";
+            btn2.style.background = "#d04109";
+            btn1.style.color = "white";
+            btn2.style.color = "white";
+            btn1.style.border = "0px";
+            btn2.style.border = "0px";
+            form.style.marginTop = "80px";
+        }
+    }
+</script>
