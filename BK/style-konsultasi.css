@@ -64,7 +64,7 @@ nav{
     height: 1133px;
     padding: 3px;
     background-color: #d04109;
-    margin: 40.5px 0px 40.5px 0px;
+    margin: 40.5px 0px 60.5px 0px;
 }
 .container-top{
     height: 500px;
@@ -179,7 +179,47 @@ h4{
     margin: 0px 40px 0px 40px;
 }
 .table-konsul{
+    border-collapse: collapse;
     text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+}
+th{
+    font-size: 30px;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+}
+td,th{
+    color:black;
+}
+
+div::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 20px;
+}
+div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+div::-webkit-scrollbar-thumb {
+  background: #888; border-radius: 20px;
+}
+div::-webkit-scrollbar-thumb:hover {
+  background: #555; border-radius: 20px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.hvr:hover{
+    background-color: yellow;
+}
+.hvr1{
+    border: 1px solid black;
+}
+
+.kotak2{
+    display:block;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 95%;
+    overflow:auto;
 }
 
 .logo-sosmed{
@@ -208,11 +248,7 @@ span{
     height: 500px;
     padding: 20px 20px 0px 20px;
 }
-.kotak2{
-    width: 100%;
-    height: 50%;
 
-}
 .f2{
     height: 54px;
     width: 390px;
@@ -293,7 +329,7 @@ span{
         background-image: url('Images/Register_Image.png');
     }
     .masalah{
-        width: 655px;
+        width: 645px;
         height: 100px;
         border: 2px solid #d04109;
     }
@@ -302,21 +338,36 @@ span{
         height: 438px;
     }
     .f1{
-        height: 54px;
-        width: 290px;
-        font-size: 24px;
+        height: 50px;
+        width: 300px;
+        font-size: 20px;
         padding: 0px 10px;
+    }
+    .masalah{
+        font-size: 20px;
     }
 
     .container{
         width: 700px;
-        height: 1279px;
+        height: 1135px;
         padding: 3px;
         background-color: #d04109;
-        margin: 40.5px 0px 40.5px 0px;
+        margin: 40.5px 0px 56px 0px;
     }
-
-    
+    .masalah{
+        font-size: 20px;
+    }
+    .form{
+        width: 100%;
+    }
+    .form-top{
+        text-align: center;
+    }
+    .frm-isi{
+        float: left;
+        width:350px;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width:672px){
@@ -383,22 +434,25 @@ span{
         width: 400px;
     }
     .f1{
-        width: 330px;
+        width: 230px;
+        height: 40px;
+        font-size: 18px;
     }
     .f2{
         width: 330px;
     }
     .container{
         width: 400px;
-        height: 1279px;
+        height: 1135px;
         padding: 3px;
         background-color: #d04109;
-        margin: 40.5px 0px 40.5px 0px;
+        margin: 40.5px 0px 69px 0px;
     }
     .masalah{
-        width: 355px;
+        width: 345px;
         height: 100px;
         border: 2px solid #d04109;
+        font-size: 18px;
     }
     h1{
         font-size: 30px;
@@ -408,10 +462,27 @@ span{
     }
     .kotak2{
         width: 100%;
-        height: 50%;
+        height: 98%;
+    }
+    th{
+        font-size: 20px;
+    }
+    .hvr1{
+        font-size: 19px;
     }
     .isi2{
         width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    .form-top{
+        text-align: center;
+    }
+    .frm-isi{
+        float: left;
+        width:350px;
+        height: 100%;
     }
 }
 @media screen and (max-width:506px){
@@ -460,7 +531,7 @@ span{
 
     .container{
         width: 350px;
-        height: 1279px;
+        height: 1159px;
         padding: 3px;
         background-color: #d04109;
         margin: 40.5px 0px 40.5px 0px;
@@ -473,19 +544,20 @@ span{
         width: 310px; 
     }
     .masalah{
+        float: left;
         width: 355px;
         height: 100px;
         border: 2px solid #d04109;
     }
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     span{
         font-size: 20px;
     }
     .kotak2{
         width: 100%;
-        height: 50%;
+        height: 98%;
     }
     .isi2{
         width: 100%;
@@ -498,7 +570,24 @@ span{
     }
     .f1{
         float: left;
-
+    }
+    h5{
+        font-size: 25px;
+    }
+    .form{
+        width: 100%;
+    }
+    .email{
+        width: 300px;
+    }
+    .form-top{
+        text-align: center;
+        font-size: 30px;
+    }
+    .frm-isi{
+        float: left;
+        width:300px;
+        height: 100%;
     }
 }
 @media screen and (max-width:321px){
@@ -535,7 +624,8 @@ span{
         width: 300px;
     }
     .f1{
-        width: 230px;
+        width: 200px;
+        font-size: 15px;
     }
 
     .container{
@@ -558,14 +648,14 @@ span{
         border: 2px solid #d04109;
     }
     h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     span{
         font-size: 20px;
     }
     .kotak2{
         width: 100%;
-        height: 50%;
+        height: 98%;
     }
     .isi2{
         width: 100%;
@@ -575,5 +665,28 @@ span{
     }
     .masalah{
         width: 260px;
+    }
+
+    .form{
+        width: 100%;
+    }
+    .email{
+        width: 270px;
+    }
+    .form-top{
+        text-align: center;
+        font-size: 30px;
+    }
+    .frm-isi{
+        float: left;
+        width:200px;
+        height: 100%;
+    }
+    .masalah{
+        width: 230px;
+    }
+    .form-isi2{
+        height: 630px;
+        
     }
 }

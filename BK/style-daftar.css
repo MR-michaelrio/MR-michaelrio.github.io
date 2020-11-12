@@ -121,7 +121,7 @@ h4{
     height: 54px;
     width: 390px;
     border: 3px solid #d04109;
-    color:#d04109;
+    color:black;
     font-size: 24px;
     padding: 0px 10px;
 }
@@ -214,7 +214,7 @@ span{
     height: 54px;
     width: 390px;
     border: 3px solid #d04109;
-    color:#d04109;
+    color:black;
     font-size: 24px;
     float: left;
     margin: 0px 0px 20px;
@@ -227,6 +227,8 @@ option{
     width: 865px;
     height: 100px;
     border: 2px solid #d04109;
+    padding:10px;
+    font-size: 20px;
     color:black;
 }
 .button3{
